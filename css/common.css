@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Joan&family=Kdam+Thmor+Pro&family=League+Gothic&family=Raleway&family=Roboto+Slab&family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Kdam Thmor Pro";
+}
+
+header {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header:hover {
+    background-color: #b52b27;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+h1, h2 {
+    color: #d9534f;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navigation i {
+    margin-right: 10px;
+    color: #000000;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation i:hover {
+    color: #d9534f;
+}
